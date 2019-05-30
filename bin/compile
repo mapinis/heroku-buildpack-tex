@@ -57,5 +57,4 @@ echo 'export PATH=$HOME/.texlive/bin/x86_64-linux:$PATH' >> $PROFILE_D
 # Install Necessary Custom Packages
 tlmgr --version
 tlmgr option repository "ftp://tug.org/historic/systems/texlive/2012/tlnet-final"
-tlmgr install psnfss
-tlmgr install anyfontsize
+tlmgr install psnfss anyfontsize
