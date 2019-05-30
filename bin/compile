@@ -58,7 +58,7 @@ echo 'export PATH=$HOME/.texlive/bin/x86_64-linux:$PATH' >> $PROFILE_D
 tlmgr --version
 tlmgr option repository "ftp://tug.org/historic/systems/texlive/2012/tlnet-final"
 
-tlmgr install psnfss anyfontsize microtype
+tlmgr install psnfss anyfontsize microtype ncntrsbk
 
 echo "Forcing anyfontsize install"
 until [[ "$(kpsewhich anyfontsize.sty)" != "" ]]
