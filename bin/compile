@@ -71,3 +71,9 @@ until [[ "$(kpsewhich microtype.sty)" != "" ]]
 do
 tlmgr install microtype
 done
+
+echo "Forcing ncntrsbk install"
+until [[ "$(kpsewhich pncr7t.tfm)" != "" ]]
+do
+tlmgr install ncntrsbk
+done
